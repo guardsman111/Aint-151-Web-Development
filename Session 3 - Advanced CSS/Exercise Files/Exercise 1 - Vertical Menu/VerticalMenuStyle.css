@@ -1,0 +1,14 @@
+ul {
+  list-style-type:none;
+}
+
+li {
+  background-color: #FFD747;
+  width: 100px;
+  margin: 3px;
+  padding: 0px;
+}
+
+li:hover {
+  background-color: #47FFE3;
+}

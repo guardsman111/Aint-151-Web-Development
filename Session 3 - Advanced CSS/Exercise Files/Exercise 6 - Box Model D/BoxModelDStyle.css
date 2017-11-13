@@ -1,0 +1,27 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#header {
+  background-color: #47FFE3;
+  margin-bottom: 10px;
+  width: 900px;
+  height: 70px;
+}
+
+#rightmenu{
+  background-color: #47FFE3;
+  float:right;
+  margin-left: 10px;
+  width: 290px;
+  height: 430px;
+}
+
+.leftitem {
+  background-color: #47FFE3;
+  float:left;
+  margin-bottom: 10px;
+  width: 600px;
+  height: 100px;
+}

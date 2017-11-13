@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+
+li {
+  background-color: lightblue;
+  width: 150px;
+  height: 20px;
+  float:left;
+  display:none;
+}
+
+#menu>li {
+  margin: 2px;
+  display:block;
+}
+
+#menu>li:hover ul>li {
+  background-color: lightblue;
+  display:block;
+}

@@ -1,0 +1,34 @@
+#container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#header {
+  background-color: #47FFE3;
+  margin-bottom: 10px;
+  width: 900px;
+  height: 70px;
+}
+
+#leftmenu {
+  background-color: #47FFE3;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float:left;
+  width: 290px;
+  height: 500px;
+}
+
+#maincontent {
+  background-color: #47FFE3;
+  float:right;
+  width: 590px;
+  height: 500px;
+}
+
+#footer {
+  background-color: #47FFE3;
+  clear:left;
+  width: 900px;
+  height: 30px;
+}
