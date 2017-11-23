@@ -9,4 +9,9 @@ function OnLoad()
 {
 	document.getElementById('roomtitle').innerText = roomObject.title;
 	document.getElementById('roomtext').innerText = roomObject.text;
+	for (var i = 0; i < roomObject.choices.length; i++)
+	{
+		var choiceAdd = "<button type='button' value='" + i + "'>" + roomObject.choices[i] + "</option>";
+		document.getElementById('roomchoices').innerHTML += choiceAdd
+	}
 }
